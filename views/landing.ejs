@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="/styles/landing.css">
 
-<link rel="stylesheet" href="/styles/animated.css"
+<link rel="stylesheet" href="/styles/animated.css">
 
 <div class="bd-example">
     <div id="carouselExampleCaptions" class="carousel slide custom-carousel" data-ride="carousel">
@@ -47,7 +47,7 @@
 
 <section id="about">
     <div class="container">
-        <h1 id="titleAbout"><span class="signoPuntuacion">¿</span>Quienes somos<span class="signoPuntuacion">?</span></h1>
+        <h1 id="titleAbout"><span class="signoPuntuacion">¿</span>Quiénes somos<span class="signoPuntuacion">?</span></h1>
         <p>
             Somos una empresa que busca satisfacer las necesidades de la <strong>Industria del Petróleo</strong> y/o, los
             <strong>Hidrocarburos</strong>, mediante servicios confiables y especializados basados en la normatividad vigente,
@@ -60,27 +60,78 @@
 <section id="valores">
     <div class="container">
         <h2>Nuestros valores<span class="signoPuntuacion">:</span></h2>
-        <div class="row valores">
-            <div class="valor">
-                <img class="iconValores" src="/img/liderazgo.png">
-                <h3>Autoliderazgo</h3>
-            </div>
+        <div class="row valores">  
             <div class="valor">
                 <img class="iconValores" src="/img/pasion.png">
                 <h3>Pasión</h3>
             </div>
             <div class="valor">
+                <img class="iconValores" src="/img/confianza.png">
+                <h3>Confianza</h3>
+            </div>
+            <div class="valor">
+                <img class="iconValores" src="/img/medalla.png">
+                <h3>Calidad</h3>
+            </div>
+        </div>
+        <div class="row valores">
+            <div class="valor">
                 <img class="iconValores" src="/img/compromiso.png">
                 <h3>Compromiso</h3>
             </div>
             <div class="valor">
-                <img class="iconValores" src="/img/confianza.png">
-                <h3>Confianza</h3>
+                <img class="iconValores" src="/img/liderazgo.png">
+                <h3>Autoliderazgo</h3>
             </div>
         </div>
         
     </div>
 </section>
-</div>
+
+<section id="politica">
+    <div class="container">
+        <div id="contTitlePolitica">
+            <h3 id="titlePolitica">Política:</h3>
+        </div>
+        <p>
+            En Kepler Oil & Gas estamos comprometidos a safisfacer las nececidades del sector <strong>hidrocarburos</strong>, 
+            mediante servicios confiables y especializados. así como en la capacidad y experiencia técnica de nuestro personal,
+            cumpliando con los requisitos de nuestro sistema de gestión de calidad, la normatividad vigente y enfocándonos
+            siempre hacia la mejora continua.
+        </p>
+    </div>  
+</section>
+
+<section id="servicios">
+    <div class="container">
+        <h3>Nuestros <span class="bold">Servicios</span>:</h3>
+        <div class="row contServicios"> 
+            <div class="card" style="width: 18rem;">
+                <img src="/img/card-const.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NOM-005-ASEA-2016</h5>
+                    <p class="card-text">Diseño, construcción, operación y mantenimiento de Estaciones de Servicio para almacenamiento y expendio de diésel y gasolinas.</p>
+                    <a class="red" href="">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="col">
+                <label for="inputEmail4">Email</label>
+                <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
 
 <% include partials/footer %>
