@@ -1,3 +1,9 @@
-img.heroImage {
-    
+.carousel-item{
+    height: 720px;
+    width: 100%;
+}
+
+h1.title{
+    font-size: 100px;
+    color: lightslategray;
 }
