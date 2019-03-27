@@ -1,11 +1,37 @@
-.carousel-item{
-    height: 720px;
-    width: 100%;
+h1.title{
+    color: lightslategray;
 }
 
-h1.title{
-    font-size: 100px;
-    color: lightslategray;
+h1#titleAbout {
+    margin-bottom: 20px;
+}
+
+span.signoPuntuacion {
+    color: #9D1C25;
+    font-weight: bold;
+}
+
+
+section#about {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+img.iconValores {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.valor {
+    padding: 5%;
+}
+
+div.valores {
+    display: flex;
+    justify-content: space-around;
 }
 .custom-carousel{
     position: relative;
@@ -36,5 +62,4 @@ h1.title{
 
 .carousel-caption p {
     font-size: 20px;
-
 }
