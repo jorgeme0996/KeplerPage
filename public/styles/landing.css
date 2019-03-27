@@ -34,7 +34,7 @@ div.valores {
     justify-content: space-around;
 }
 .custom-carousel{
-    position: relative;
+    position: relative;/*relative*/
 }
 
 .overlay{
@@ -46,9 +46,7 @@ div.valores {
     opacity: 0.5;
 }
 
-.bd-example .carousel-inner .carousel-item{
-    height: 100vh;
-}
+
 
 .carousel-caption{
     padding-bottom: 250px;
@@ -64,6 +62,17 @@ div.valores {
     font-size: 20px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #img1{
+        height: 350px;
+    }
+    #img2{
+        height: 350px;
+    }
+    #img3{
+        height: 350px;
+    }
+}
 section#politica {
     background-color: #0d0d0d;
     color: white;
