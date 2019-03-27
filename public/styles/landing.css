@@ -63,3 +63,44 @@ div.valores {
 .carousel-caption p {
     font-size: 20px;
 }
+
+section#politica {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 5%;
+}
+
+section#servicios {
+    padding: 5%
+}
+
+div#contTitlePolitica {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+h3#titlePolitica {
+    border-bottom: 2px solid white;
+}
+
+span.bold {
+    font-weight: bold;
+    color: #9D1C25;
+    border-bottom: #9D1C25 2px solid;
+}
+
+.fa-gas-pump {
+    color: #9D1C25;
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+div.contServicios {
+    display: flex;
+    justify-content: space-around;
+}
+
+a.red {
+    color: #9D1C25;
+}
