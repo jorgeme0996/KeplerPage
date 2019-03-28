@@ -104,3 +104,12 @@ div.contServicios {
 a.red {
     color: #9D1C25;
 }
+
+div.card {
+    margin-top: 40px;
+}
+
+div.form-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
