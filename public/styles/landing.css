@@ -33,6 +33,40 @@ div.valores {
     display: flex;
     justify-content: space-around;
 }
+
+#contenedor{
+    display: flex;
+    padding-top: 80px;
+}
+
+#mision{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+#mision h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 38px;
+    color: #214e9b;
+}
+
+#vision{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+#vision h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 38px;
+    color: #214e9b;
+}
+
 .custom-carousel{
     position: relative;/*relative*/
 }
