@@ -206,7 +206,7 @@
 <section id="contacto">
     <div class="container">
         <div id="contTitlePolitica">
-            <h3>Cotacto:</h3>
+            <h3>Contacto:</h3>
         </div>
         <form>
             <div class="form-row">
@@ -232,6 +232,7 @@
             <div class="form-row">
                 <label for="exampleFormControlTextarea1">Descripción/Comentarios</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <p id="linkAviso">* No compartiremos tu información con nadie. <a href="/aviso">Revisa nuestro aviso de privacidad</a></p>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
@@ -243,15 +244,15 @@
 </section>
 
 <script>
-var map;
-var kepler = {lat: 20.584109, lng: -100.393164};
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 20.584018, lng: -100.393128},
-        zoom: 15
-    });
-    var marker = new google.maps.Marker({position: kepler, map: map});
-}    
+    var map;
+    var kepler = {lat: 20.584109, lng: -100.393164};
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 20.584018, lng: -100.393128},
+            zoom: 16
+        });
+        var marker = new google.maps.Marker({position: kepler, map: map});
+    }    
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgmI1bWkGcebNPjwZpxSpCQ2yCWDGSJ1I&callback=initMap"
 async defer></script>

@@ -1,3 +1,7 @@
+body {
+    margin-top: 50px;
+}
+
 h1.title{
     color: lightslategray;
 }
@@ -96,17 +100,6 @@ div.valores {
     font-size: 20px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    #img1{
-        height: 350px;
-    }
-    #img2{
-        height: 350px;
-    }
-    #img3{
-        height: 350px;
-    }
-}
 section#politica {
     background-color: #0d0d0d;
     color: white;
@@ -160,4 +153,8 @@ div.form-row {
 #map {
     height: 400px;
     margin-top: 30px;
+}
+
+p#linkAviso {
+    opacity: 0.5;
 }

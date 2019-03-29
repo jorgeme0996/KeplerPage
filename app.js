@@ -11,7 +11,11 @@ app.get("/", function(req, res){
     res.render("landing");
 });
 
-app.listen(process.env.PORT,process.env.IP, function(){
+app.get("/aviso", function(req, res){
+    res.render("aviso");
+});
+
+app.listen(4000, function(){
     console.log("Esta vivo!!!!")
 })
 //process.env.PORT,process.env.IP
