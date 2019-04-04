@@ -4,105 +4,87 @@
 
 <link rel="stylesheet" href="/styles/animated.css">
 
-<div class="bd-example">
-    <div id="carouselExampleCaptions" class="carousel slide custom-carousel" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="overlay"></div>
-                <img src="/img/ehud-neuhaus-1259619-unsplash.jpg" class="d-block w-100" alt="imagen1" id="img1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="animated fadeInUp" style="animation-delay: 1s">Calidad</h1>
-                    <p class="animated fadeInDown" style="animation-delay: 2s">ISO 9000 / 2015.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="overlay"></div>
-                <img src="/img/jose-lebron-1138274-unsplash.jpg" class="d-block w-100" alt="imagen2" id="img2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="animated zoomInUp" style="animation-delay: 1.5s">Experiencia</h1>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="overlay"></div>
-                <img src="/img/rutger-heijmerikx-1272218-unsplash.jpg" class="d-block w-100" alt="imagen3" id="img3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="animated rollIn" style="animation-delay: 0.5s">Integridad</h1>
-                    <p class="animated bounceInLeft" style="animation-delay: 1.5s">Imparcialidad.</p>
-                    <p class="animated bounceInLeft" style="animation-delay: 2s">Confidencialidad.</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+<header class="v-header vidContainer">
+    <div class="fullscreen-video-wrap">
+        <video src="/video/video.vid" autoplay="true" loop="true"></video>
     </div>
-</div>
+    <div class="header-overlay"></div>
+    <div class="header-content">
+        <h1>Hello Everyone</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quis rerum iure. Provident suscipit harum deserunt. Repellat similique quam sit.</p>
+        <a href="#" class="vidBtn">Read more</a>
+    </div>
+</header>
 
 <section id="about">
     <div class="container">
-        <h1 id="titleAbout"><span class="signoPuntuacion">¿</span>Quiénes somos<span class="signoPuntuacion">?</span></h1>
-        <p>
-            Somos una empresa que busca satisfacer las necesidades de la <strong>Industria del Petróleo</strong> y/o, los
-            <strong>Hidrocarburos</strong>, mediante servicios confiables y especializados basados en la normatividad vigente,
-            así como en la capacidad y experiencia técnica de nuestro personal, enfocados siempre hacia la
-            mejora continua<span class="signoPuntuacion">.</span>
-        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/img/about.jpeg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-6">
+                <h1 id="titleAbout"><span class="signoPuntuacion">¿</span>Quiénes somos<span class="signoPuntuacion">?</span></h1>
+                <p>
+                    Somos una empresa que busca satisfacer las necesidades de la <strong>Industria del Petróleo</strong> y/o, los
+                    <strong>Hidrocarburos</strong>, mediante servicios confiables y especializados basados en la normatividad vigente,
+                    así como en la capacidad y experiencia técnica de nuestro personal, enfocados siempre hacia la
+                    mejora continua<span class="signoPuntuacion">.</span>
+                </p>
+            </div>
+        </div>  
     </div> 
+</section>
+
+<section id="politica">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contPolitica">
+                    <div id="contTitlePolitica">
+                        <h1 id="titleAbout">Política:</h1>
+                    </div>
+                    <p>
+                        En Kepler Oil & Gas estamos comprometidos a safisfacer las nececidades del sector <strong>hidrocarburos</strong>, 
+                        mediante servicios confiables y especializados. así como en la capacidad y experiencia técnica de nuestro personal,
+                        cumpliando con los requisitos de nuestro sistema de gestión de calidad, la normatividad vigente y enfocándonos
+                        siempre hacia la mejora continua.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="/img/politica.jpeg" class="img-fluid img-politica" alt="Responsive image">
+            </div>
+        </div>
+    </div>  
 </section>
 
 <section id="valores">
     <div class="container">
         <h2>Nuestros valores<span class="signoPuntuacion">:</span></h2>
-        <div class="row valores">  
-            <div class="valor">
-                <img class="iconValores" src="/img/pasion.png">
-                <h3>Pasión</h3>
-            </div>
-            <div class="valor">
-                <img class="iconValores" src="/img/confianza.png">
-                <h3>Confianza</h3>
-            </div>
-            <div class="valor">
-                <img class="iconValores" src="/img/medalla.png">
-                <h3>Calidad</h3>
+        <div class="container">
+            <div class="row contValores">
+                <div>
+                    <img src="/img/agreement.png" alt="">
+                    <p>Compromiso</p>
+                </div>
+                <div>
+                    <img src="/img/leader.png" alt="">
+                    <p>Calidad</p>
+                </div>
+                <div>
+                    <img src="/img/conference.png" alt="">
+                    <p>Autoliderazgo</p>
+                </div>
+                <div>
+                    <img src="/img/team.png" alt="">
+                    <p>Pasión</p>
+                </div>
+                <div>
+                    <img src="/img/meeting.png" alt="">
+                    <p>Confianza</p>
+                </div>
             </div>
         </div>
-        <div class="row valores">
-            <div class="valor">
-                <img class="iconValores" src="/img/compromiso.png">
-                <h3>Compromiso</h3>
-            </div>
-            <div class="valor">
-                <img class="iconValores" src="/img/liderazgo.png">
-                <h3>Autoliderazgo</h3>
-            </div>
-        </div>
-        
-    </div>
-</section>
-
-<section id="politica">
-    <div class="container">
-        <div id="contTitlePolitica">
-            <h3 id="titlePolitica">Política:</h3>
-        </div>
-        <p>
-            En Kepler Oil & Gas estamos comprometidos a safisfacer las nececidades del sector <strong>hidrocarburos</strong>, 
-            mediante servicios confiables y especializados. así como en la capacidad y experiencia técnica de nuestro personal,
-            cumpliando con los requisitos de nuestro sistema de gestión de calidad, la normatividad vigente y enfocándonos
-            siempre hacia la mejora continua.
-        </p>
-    </div>  
 </section>
 
 <section id="contenedor">
@@ -131,76 +113,7 @@
 </section>
 
 <section id="servicios">
-    <div class="container">
-        <h3>Nuestros <span class="bold">Servicios</span>:</h3>
-        <div class="row contServicios"> 
-            <div class="card" style="width: 18rem;">
-                <img src="/img/card-nom06.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">NOM-006-ASEA-2016</h5>
-                    <p class="card-text">
-                        Especificaciones y criterios técnicos de seguridad industrial,
-                        seguridad operativa y protección al medio ambiente para el diseño, construcción, pre-arranque, operación, mantenimiento, cierre y
-                        desmantelamiento de las instalaciones terrestres de almacenamiento de petrolíferos y petróleo, excepto para gas licuado de petróleo.     
-                    </p>
-                    <a class="red" href="">Ver más</a>
-                </div>
-            </div>
-            
-            <div class="card" style="width: 18rem;">
-                <img src="/img/card-sas-comercial.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">SASISOPA Comercial</h5>
-                    <p class="card-text">
-                        DISPOSICIONES administrativas de carácter general que establecen los Lineamientos para la conformación, implementación y
-                        autorización de los Sistemas de Administración de Seguridad Industrial, Seguridad Operativa y Protección al Medio Ambiente
-                    </p>
-                    <a class="red" href="">Ver más</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/img/card-sas-indus.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">SASISOPA Industrial</h5>
-                    <p class="card-text">
-                        DISPOSICIONES administrativas de carácter general que establecen los Lineamientos para la conformación, implementación y
-                        autorización de los Sistemas de Administración de Seguridad Industrial, Seguridad Operativa y Protección al Medio Ambiente
-                    </p>
-                    <a class="red" href="">Ver más</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/img/card-const.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">NOM-005-ASEA-2016</h5>
-                    <p class="card-text">Diseño, construcción, operación y mantenimiento de Estaciones de Servicio para almacenamiento y expendio de diésel y gasolinas.</p>
-                    <a class="red" href="">Ver más</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/img/card-nom014.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">NOM-014-CRE-2016</h5>
-                    <p class="card-text">
-                        Especificaciones de
-                        calidad de los petroquímicos.                                    
-                    </p>
-                    <a class="red" href="">Ver más</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/img/card-016.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">NOM-016-CRE-2016</h5>
-                    <p class="card-text">
-                        Especificaciones de
-                        calidad de los petrolíferos.                                                                
-                    </p>
-                    <a class="red" href="">Ver más</a>
-                </div>
-            </div>
-        </div> 
-    </div>
+
 </section>
 
 <section id="contacto">
