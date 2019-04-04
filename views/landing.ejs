@@ -61,7 +61,7 @@
 
 <section id="valores">
     <div class="container">
-        <h2>Nuestros valores<span class="signoPuntuacion">:</span></h2>
+        <h2 id="valoresTitle">Nuestros valores<span class="signoPuntuacion">:</span></h2>
         <div class="container">
             <div class="row contValores">
                 <div  class="project">
@@ -79,33 +79,41 @@
                 <div class="project">
                     <img src="/img/team.png" alt="">
                     <p>Pasión</p>
+                <div>
+                    <img src="/img/agreement.png" class="img-fluid" alt="Responsive image">
+                    <p class="txtValor">Compromiso</p>
+                </div>
+                <div>
+                    <img src="/img/leader.png" class="img-fluid" alt="Responsive image">
+                    <p class="txtValor">Calidad</p>
+                </div>
+                <div>
+                    <img src="/img/conference.png" class="img-fluid" alt="Responsive image">
+                    <p class="txtValor">Autoliderazgo</p>
+                </div>
+                <div>
+                    <img src="/img/team.png" class="img-fluid" alt="Responsive image">
+                    <p class="txtValor">Pasión</p>
                 </div>
                 <div class="project">
                     <img src="/img/meeting.png" alt="">
-                    <p>Confianza</p>
+                    <p class="txtValor">Confianza</p>
                 </div>
             </div>
         </div>
 </section>
 
-<section id="contenedor">
+<section id="misionVision">
     <div class="container">
         <div class="row">
             <div class="col-md-6" id="mision">
-                <h3 class="animated rollIn" style="animation-delay: 0.2s">Mision</h3>
-                <p class="animated bounceInLeft" style="animation-delay: 0.5s"> Somos un equipo comprometido que colabora con pasion y constancia para 
-                    proveer servicios tecnicos especializados en la evaluacion de la conformidad de 
-                    requerimientos normativas asociadas al sector de hidrocarburos, solucionando 
-                    las necesidades de nuestros clientes en cuanto a calidad, confianza y competitividad.
-                </p>
+                <h2 class="animated rollIn" style="animation-delay: 0.2s">Misión</h2>
+                <p class="animated bounceInLeft" style="animation-delay: 0.5s"> Somos un equipo comprometido que colabora con pasión y constancia para proveer servicios técnicos especializados en la evaluación de la conformidad de requerimientos normativos asociados al sector de hidrocarburos, solucionando las necesidades de nuestros clientes en cuanto a calidad, confianza y competitividad.</p>
             </div>
             <div class="col-md-6" id="vision">
-                <h3 class="animated rollIn" style="animation-delay: 0.5s">Vision</h3>
+                <h2 class="animated rollIn" style="animation-delay: 0.5s">Visión</h2>
                 <p class="animated bounceInLeft" style="animation-delay: 1.5s">
-                    Ser el referente nacional en la evaluacion de conformidad de las normas 
-                    asociadas al sector hidrocarburos, reconocidos por proveer a nuestro clientes 
-                    servicios confiables y de calidad, destacados por la experiencia, capacidad y 
-                    pasion que nos caracteriza.
+                    Ser el referente nacional en la evaluación de conformidad de las normas asociadas al sector hidrocarburos, reconocidos por proveer a nuestros clientes servicios confiables y de calidad, destacados por la experiencia, capacidad y pasión que nos caracteriza.
                 </p>
             </div>
         </div>
@@ -114,7 +122,44 @@
 </section>
 
 <section id="servicios">
-
+    <div class="container">
+        <h2 id="serviciosTittle">Nuestros <span class="signoPuntuacion">servicios:</span></h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <h4><span class="signoPuntuacion">Terminales</span></h4>  
+                        <img src="/img/oil.png" >
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li><p>S.A.S.I.S.O.P.A Industrial</p></li>
+                            <li><p>NOM-EM-006-ASEA-2016</p></li>
+                            <li><p>NOM-016-CRE-2016</p></li>
+                            <li><p>DACG Medición en almacenamiento RES/811/2015</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <h4><span class="signoPuntuacion">Estaciones de servicio</span></h4>
+                        <img src="/img/gas-station.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li><p>S.A.S.I.S.O.P.A Comercial</p></li>
+                            <li><p>NOM-016-CRE-2016</p></li>
+                            <li><p>DACG Medición en almacenamiento RES/811/2015</p></li>
+                            <li><p>NOM-EM-005-ASEA-2016</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    
 </section>
 
 <section id="contacto">
@@ -153,11 +198,11 @@
     </div>
 </section>
 
-<section>
+<!-- <section>
     <div id="map"></div>
-</section>
+</section> -->
 
-<script>
+<!-- <script>
     var map;
     var kepler = {lat: 20.584109, lng: -100.393164};
     function initMap() {
@@ -167,7 +212,7 @@
         });
         var marker = new google.maps.Marker({position: kepler, map: map});
     }    
-</script>
+</script> -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgmI1bWkGcebNPjwZpxSpCQ2yCWDGSJ1I&callback=initMap"
 async defer></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
