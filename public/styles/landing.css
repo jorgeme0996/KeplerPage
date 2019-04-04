@@ -220,7 +220,7 @@ h2#valoresTitle, h2#serviciosTittle {
     padding-bottom: 5%;
 }
 
-section#misionVision {
+ .misionVision {
     background: rgb(34,193,195);
     background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,1) 100%);
@@ -229,10 +229,25 @@ section#misionVision {
     color: black;
 }
 
-section#misionVision p {
+ .misionVision p {
     font-weight: bold;
 }
 
-section#misionVision h2 {
-    color: white;
+ .misionVision h2 {
+    color: #76f2ea;
+}
+
+.panel{
+   
+}
+
+
+.mis{
+    color:  white;
+   
+}
+
+.vis{
+    color:  white;
+   
 }
