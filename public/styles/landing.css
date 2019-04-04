@@ -13,8 +13,8 @@ span.signoPuntuacion {
 }
 
 section {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .img-politica {
@@ -41,68 +41,6 @@ div.valor {
 div.valores {
     display: flex;
     justify-content: space-around;
-}
-
-#contenedor{
-    display: flex;
-    padding-top: 80px;
-}
-
-#mision{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    
-}
-
-#mision h3{
-    text-align: center;
-    font-family: cursive;
-    font-size: 38px;
-    color: #214e9b;
-}
-
-#vision{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    
-}
-
-#vision h3{
-    text-align: center;
-    font-family: cursive;
-    font-size: 38px;
-    color: #214e9b;
-}
-
-.custom-carousel{
-    position: relative;/*relative*/
-}
-
-.overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: #080d15;
-    opacity: 0.5;
-}
-
-
-
-.carousel-caption{
-    padding-bottom: 400px;
-    font-family: monospace;
-}
-
-.carousel-caption h1{
-    font-size: 50px;
-    text-transform: uppercase;
-}
-
-.carousel-caption p {
-    font-size: 20px;
 }
 
 section#politica {
@@ -256,11 +194,37 @@ body {
         transform: scale(1.1)
     }
 
-    .contPolitica {
-        margin-right: 0px;
+    div.contPolitica {
+        margin-right: 0px !important;
     }
 }
 
-.contPolitica {
+div.contPolitica {
     margin-right: 30%;
+}
+
+p.txtValor {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2#valoresTitle, h2#serviciosTittle {
+    padding-bottom: 5%;
+}
+
+section#misionVision {
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,154,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#2d9afd",GradientType=1);
+    color: black;
+}
+
+section#misionVision p {
+    font-weight: bold;
+}
+
+section#misionVision h2 {
+    color: white;
 }
