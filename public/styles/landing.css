@@ -177,6 +177,12 @@ body {
     overflow-x: hidden;
 }
 
+
+.project {
+    opacity: 0;
+    transition: all .3s ease-in;
+  }
+
 .v-header {
     height: 100vh;
     display: flex;
@@ -185,11 +191,13 @@ body {
 }
 
 .vidContainer {
+    
     max-width: 960px;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: auto;
     text-align: center;
+   
 }
 
 .fullscreen-video-wrap {
@@ -264,3 +272,4 @@ body {
 .contPolitica {
     margin-right: 30%;
 }
+
