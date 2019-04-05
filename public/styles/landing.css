@@ -170,6 +170,7 @@ body {
 .header-content h1 {
     font-size: 50px;
     margin-bottom: 0;
+    opacity: 0;
 }
 
 .header-content p {
@@ -179,11 +180,29 @@ body {
 }
 
 .vidBtn {
+    display: block;
     background:  #34b3a0;
     color: white;
     font-size: 1.2rem;
     padding: 1rem 2rem;
     text-decoration: none;
+    box-shadow: 8px 8px rgba(34,84,112,0.4);
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.vidBtn:hover {
+    text-decoration: none;
+    color: white;
+    box-shadow: 4px 4px rgba(34,84,112,0.4);
+    transform: translate(4px, 4px);
+    text-decoration: none;
+}
+
+.vidBtn:active {
+    box-shadow: 2px 2px rgba(34,84,112,0.4);
+    transform: translate(8px, 8px);
 }
 
 @media(max-width:960px) {
@@ -237,17 +256,43 @@ h2#valoresTitle, h2#serviciosTittle {
     color: #76f2ea;
 }
 
-.panel{
-   
-}
-
-
 .mis{
     color:  white;
    
 }
 
+div.servCont {
+    margin-top: 10px;
+    text-align: center;
+}
+
 .vis{
-    color:  white;
-   
+    color:  white; 
+}
+
+h1.toogle:first-child {
+    animation: toggle 10s infinite 0s;
+}
+h1.toogle:nth-child(2) {
+    animation: toggle 10s infinite 2s;
+}
+h1.toogle:nth-child(3) {
+    animation: toggle 10s infinite 4s;
+}
+
+@keyframes toggle {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+.contValores p {
+    font-weight: bold;
+    text-align: center;
 }

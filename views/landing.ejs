@@ -10,9 +10,11 @@
     </div>
     <div class="header-overlay"></div>
     <div class="header-content">
-        <h1>Hello Everyone</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quis rerum iure. Provident suscipit harum deserunt. Repellat similique quam sit.</p>
-        <a href="#" class="vidBtn">Read more</a>
+        <h1 class="toogle">EXPERIENCIA</h1>
+        <h1 class="toogle">CALIDAD</h1>
+        <h1  class="toogle">INTEGRIDAD</h1>
+        <p>El staff de ingenieros que componen nuestro equipo de trabajo, cuentan con más de 100 años de experiencia en el sector petrolíferos </p>
+        <a href="#contacto" class="vidBtn">HAZ TU SOLICITUD</a>
     </div>
 </header>
 
@@ -109,16 +111,16 @@
 <section id="servicios">
     <div class="container">
         <h2 id="serviciosTittle">Nuestros <span class="signoPuntuacion">servicios:</span></h2>
-        <div class="row">
+        <div class="row servCont">
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <h4><span class="signoPuntuacion">Terminales</span></h4>  
                         <img src="/img/oil.png" >
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <ul>
-                            <li><p>S.A.S.I.S.O.P.A Industrial</p></li>
+                            <li><p>SASISOPA Industrial</p></li>
                             <li><p>NOM-EM-006-ASEA-2016</p></li>
                             <li><p>NOM-016-CRE-2016</p></li>
                             <li><p>DACG Medición en almacenamiento RES/811/2015</p></li>
@@ -126,15 +128,16 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <h4><span class="signoPuntuacion">Estaciones de servicio</span></h4>
                         <img src="/img/gas-station.png" alt="">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <ul>
-                            <li><p>S.A.S.I.S.O.P.A Comercial</p></li>
+                            <li><p>SASISOPA Comercial</p></li>
                             <li><p>NOM-016-CRE-2016</p></li>
                             <li><p>DACG Medición en almacenamiento RES/811/2015</p></li>
                             <li><p>NOM-EM-005-ASEA-2016</p></li>
@@ -142,7 +145,75 @@
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
+        <hr>   
+        <div class="row servCont">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><span class="signoPuntuacion">Ductos</span></h4>
+                        <img src="/img/pipe.png">
+                    </div>
+                    <hr>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><p>DACG Transporte por ducto (Seguridad)</p></li>
+                            <li><p>DACG Medición transporte por ducto RES/776/2015</p></li>
+                            <li><p>NOM-016-CRE-2016</p></li>
+                            <li><p>NOM-007-ASEA-2016 Transporte de gas natural, etano y gas asociado al carbón mineral por medio de ductos</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><span class="signoPuntuacion">Bodegas de almacenamiento</span></h4>
+                        <img src="/img/bodega.png">
+                    </div>
+                    <hr>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><p>SASISOPA Comercial</p></li>
+                            <li><p>DACG Medición en almacenamiento RES/811/2015</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>  
+        <div class="row servCont">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><span class="signoPuntuacion">Gas Natural y Gas LP</span></h4>
+                        <img src="/img/gas.png">
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><p>SASISOPA Comercial</p></li>
+                            <li><p>DACG Medición en almacenamiento RES/811/2015</p></li>
+                            <li><p>NOM-016-CRE-2016</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><span class="signoPuntuacion">Industria petroquimica</span></h4>
+                        <img src="/img/factory.png">
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><p>NOM-014-CRE-2016 Especificaciones de calidad de los petroquimicos</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
 </section>
@@ -152,42 +223,52 @@
         <div id="contTitlePolitica">
             <h3>Contacto:</h3>
         </div>
-        <form>
+        <form class="needs-validation" method="POST" action="/contacto">
             <div class="form-row">
                 <div class="col">
                     <label>Nombre</label>
-                    <input type="text" class="form-control" placeholder="Ejem: Chucho Pérez">
+                    <input type="text" class="form-control" name="contacto[nombre]" placeholder="Ejem: Chucho Pérez" required>
+                    <div class="invalid-feedback">
+                        Por favor ingresa tu nombre
+                    </div>
                 </div>
                 <div class="col">
                     <label>Razón social</label>
-                    <input type="text" class="form-control" placeholder="Ejem: El Carril S.A. de C.V.">
+                    <input type="text" class="form-control" name="contacto[razonSocial]" placeholder="Ejem: El Carril S.A. de C.V.">
+                    <p>* Opcional</p>
                 </div>
             </div>
             <div class="form-row">
                 <div class="col">
                     <label>Teléfono</label>
-                    <input type="text" class="form-control" placeholder="Tel. a 10 digítos">
+                    <input type="number" class="form-control" name="contacto[telefono]" placeholder="Tel. a 10 digítos" required>
+                    <div class="invalid-feedback">
+                        Por favor ingresa tu teléfono
+                    </div>
                 </div>
                 <div class="col">
                     <label>Email</label>
-                    <input type="text" class="form-control" placeholder="ejemplo@ejemplo.com">
+                    <input type="text" class="form-control" name="contacto[email]" placeholder="ejemplo@ejemplo.com" required>
+                    <div class="invalid-feedback">
+                        Por favor ingresa tu email
+                    </div>
                 </div>
             </div>
             <div class="form-row">
                 <label for="exampleFormControlTextarea1">Descripción/Comentarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <p id="linkAviso">* No compartiremos tu información con nadie. <a href="/aviso">Revisa nuestro aviso de privacidad</a></p>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="contacto[desCom]"  rows="3"></textarea>
+                <p>* Opcional</p>    
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <p id="linkAviso">* No compartiremos tu información con nadie. <a href="/aviso">Revisa nuestro aviso de privacidad</a></p>
+            <button type="submit" class="vidBtn">Enviar</button>
         </form>
     </div>
 </section>
 
-<!-- <section>
-    <div id="map"></div>
-</section> -->
+<section id="map">
+</section>
 
-<!-- <script>
+<script>
     var map;
     var kepler = {lat: 20.584109, lng: -100.393164};
     function initMap() {
@@ -197,7 +278,27 @@
         });
         var marker = new google.maps.Marker({position: kepler, map: map});
     }    
-</script> -->
+</script>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+            }, false);
+        });
+        }, false);
+    })();
+</script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgmI1bWkGcebNPjwZpxSpCQ2yCWDGSJ1I&callback=initMap"
 async defer></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
