@@ -58,7 +58,7 @@ app.post("/contacto", function(req, res) {
     res.render('ok');
 })
 
-app.listen(3000, function(){
+app.listen(process.env.PORT,process.env.IP, function(){
     console.log("Esta vivo!!!!")
 })
 //process.env.PORT,process.env.IP
