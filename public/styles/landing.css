@@ -291,3 +291,8 @@ h1.toogle:nth-child(3) {
       opacity: 0;
     }
 }
+
+.contValores p {
+    font-weight: bold;
+    text-align: center;
+}

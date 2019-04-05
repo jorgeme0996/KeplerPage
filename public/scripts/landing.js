@@ -57,9 +57,9 @@ $(document).ready(function() {
 	var controller3 = new ScrollMagic.Controller();
 	
 	var wipeAnimations = new TimelineMax()
-		.fromTo('.panel.misionVision', 1, { x: '100%'	}, { x: '0%', ease: Linear.easeNone})
+		.fromTo('.panel.misionVision', 1, { x: '-100%'	}, { x: '0%', ease: Linear.easeNone})
 		.fromTo('.panel.mis', 1, { x: '100%'	}, { x: '0%', ease: Linear.easeNone})
-	.fromTo('.panel.vis', 1, { opacity: 1	}, { opacity: 5, ease: Linear.easeNone});
+	.fromTo('.panel.vis', 1, { opacity: 0.9	}, { opacity: 5, ease: Linear.easeNone});
 	
 new ScrollMagic.Scene({
 	triggerElement: '#pin-container',
