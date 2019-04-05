@@ -15,7 +15,7 @@ app.get("/aviso", function(req, res){
     res.render("aviso");
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT,process.env.IP , function(){
     console.log("Esta vivo!!!!")
 })
 //process.env.PORT,process.env.IP
