@@ -260,8 +260,8 @@
                 <p>* Opcional</p>    
             </div>
             <p id="linkAviso">* No compartiremos tu información con nadie. <a href="/aviso">Revisa nuestro aviso de privacidad</a></p>
-            <div class="g-recaptcha" data-sitekey="6Lc35J0UAAAAADDNJ8xZx1L7Wnyktq1q-PsnENKO"></div>
-            <button type="submit" class="vidBtn">Enviar</button>
+            <div class="g-recaptcha" data-sitekey="6Lc35J0UAAAAADDNJ8xZx1L7Wnyktq1q-PsnENKO" data-callback="recaptcha_callback"></div>
+            <button type="submit" id="sendBtn" class="vidBtn" disabled>Enviar</button>
         </form>
     </div>
 </section>
@@ -308,6 +308,13 @@
         });
         }, false);
     })();
+</script>
+<script>
+  function recaptcha_callback() {
+    const sendBtn = document.querySelector('#sendBtn');
+    sendBtn.removeAttribute('disabled');
+    sendBtn.style.cursor = 'pointer';
+  }  
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgmI1bWkGcebNPjwZpxSpCQ2yCWDGSJ1I&callback=initMap"
 async defer></script>

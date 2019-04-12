@@ -296,3 +296,7 @@ h1.toogle:nth-child(3) {
     font-weight: bold;
     text-align: center;
 }
+
+#sendBtn {
+    cursor: not-allowed;
+}
