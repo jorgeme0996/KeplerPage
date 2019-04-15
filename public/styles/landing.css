@@ -300,3 +300,7 @@ h1.toogle:nth-child(3) {
 #sendBtn {
     cursor: not-allowed;
 }
+
+#sendBtn {
+    opacity: 0.6;
+}
